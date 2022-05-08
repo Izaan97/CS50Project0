@@ -1,10 +1,8 @@
-.searchbar {
-  position:relative;  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
+  .headerSearch {
+    position:absolute;
+    top: 15px;
+    left: 90%;
+    z-index: 1;
 }
 
 
@@ -15,9 +13,14 @@
     transform: translate(-50%, -50%);
   }
 
-.headerSearch {
-    position:fixed;
-    left: 90%;
-    pointer-events:all;
-    cursor: default;
-}
+
+
+  .searchbar {
+    position:relative;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+ 
+  }
