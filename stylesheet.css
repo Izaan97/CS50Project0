@@ -1,4 +1,4 @@
-.center-screen {
+.searchbar {
   position:relative;  
   display: flex;
   justify-content: center;
@@ -8,9 +8,16 @@
 }
 
 
-.centered {
-    position:fixed ;
+.googlelogo {
+    position:absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+.headerSearch {
+    position:fixed;
+    left: 90%;
+    pointer-events:all;
+    cursor: default;
+}
