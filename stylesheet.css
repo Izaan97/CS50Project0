@@ -1,0 +1,16 @@
+.center-screen {
+  position:relative;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+
+.centered {
+    position:fixed ;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
